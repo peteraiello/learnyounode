@@ -7,10 +7,10 @@ var myBuf = fs.readFileSync(process.argv[2]);
 // to String data
 var str = myBuf.toString();
 
-// split the string into an array
+// split the string into an array with a new line delimeter
 var myArray = str.split('\n');
 
-// count the number of lines minus the last 1.
+// count the number of lines (minus the last 1).
 var result = myArray.length -1;
 
 // log the result in the console.
